@@ -1,0 +1,40 @@
+# Python bytecode cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# PyInstaller build & distribution artifacts
+build/
+dist/
+*.spec
+
+# Local config (contains sensitive API keys)
+config.local.json
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# IDE / editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# Environment variables
+.env
+.env.local
+
+# Logs
+*.log
+
+# Distribution / packaging
+*.egg-info/
+*.egg
